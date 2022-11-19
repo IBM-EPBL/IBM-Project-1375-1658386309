@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body
+{
+background-color:maroon;
+}
+h1
+{
+color:green;
+}
+button
+{
+background-color:pink;
+foreground-color:red;
+border: 7px solid yellow;
+}
+p
+{
+color:red;
+}
+</style>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "63bd42fa-1d3b-41c6-8ddc-a5d05bb49893", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "aa08694c-20a5-43af-8818-0cc67e75b527", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</head>
+<body>
+<header><center>
+<h1>
+WELCOME THIRD PARTY USER. PUT YOUR QUERIES IN CHAT BOT AVAILABLE BELOW. WE WILL SOLVE YOUR QUERIES THROUGH EMAIL.</h1></center>
+</header>
+<br>
+<br>
+<br>
+<p>Note: Click on the chatbot icon at the bottom right and post your queries</p>
+
+<br>
+<br>
+<br>
+<br>
+<button>
+<a href="home">
+Click here to go back to home page
+</a>
+</button>
+</body>
+</html>

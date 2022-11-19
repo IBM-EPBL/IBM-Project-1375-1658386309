@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Login_Register.css" /> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <title>PLASMA DONOR| LOGIN & REGISTER</title>
+    
+	</head>
+	<body class="body">
+	<header>  
+		
+			<a href="#" class="logo">Liv.Apy</a>
+			<nav>
+				<img src="https://img.icons8.com/nolan/512/heart-health.png" class="icon"/> 
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Term</a></li>
+					<li> <a href="#">Get Help</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			</nav>
+			<div class="clear"></div>
+		</header>
+		<br>
+<br>
+    <div class="cont">
+        <div class="form sign-in">
+        <form action="/home" method="post"></form>
+            <h2>Welcome</h2>
+            <label>
+                <span>Email</span>
+                <input type="email" />
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" />
+            </label>
+            <p class="forgot-pass">Forgot password?</p>
+            <button type="button" class="submit">Sign In</button>
+         
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                 
+                    <h3>Don't have an account? Please Sign up!<h3>
+                </div>
+                <div class="img__text m--in">
+                
+                    <h3>If you already has an account, just sign in.<h3>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">Sign Up</span>
+                    <span class="m--in">Sign In</span>
+                </div>
+            </div>
+            <div class="form sign-up">
+                <h2>Create your Account</h2>
+                <label>
+                    <span>Name</span>
+                    <input type="text" />
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" />
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" />
+                </label>
+                <button type="button" class="submit">Sign Up</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function() {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script>
+      
+<!--  FOOTER START -->
+  
+<div class="footer">
+    
+    <div class="inner-footer">
+        <img src="https://i.graphicmama.com/blog/wp-content/uploads/2021/04/13083506/free-medical-illustrations-17.png"  class="BG"/>
+  <!--  for company name and description -->
+      <div class="footer-items">
+        <h1>Liv.Apy</h1>
+        <p>Live Happy &Healthy</p>
+      </div>
+      
+  
+  
+  <!--  for contact us info -->
+      <div class="footer-items">
+        <h3>Contact us</h3>
+        <div class="border1"></div>
+          <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>123456789</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+          </ul> 
+    
+    
+  <!--   Footer Bottom start  -->
+    <div class="footer-bottom">
+      Copyright &copy; @Liv.Apy.
+    </div>
+  </div>
+  <!-- Thanks to Computer Conversations -->
+  </body>
+  </html>
